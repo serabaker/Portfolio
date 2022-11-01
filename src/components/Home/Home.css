@@ -1,0 +1,73 @@
+.home-container {
+  padding-top: 20px;
+  background-color: #f8f1f3;
+  height: 820px;
+  width: 1040px;
+  font-family: "Quattrocento", serif;
+  border: solid 3px red;
+  /* justify-self: center; */
+  /* display: grid; */
+  /* padding-block: 0.5rem; */
+}
+
+.home-wrapper-grid {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding-block: 1rem;
+  /* width: min(95%, 70rem); */
+  /* margin-inline: auto; */
+  /* border: solid 3px red; */
+}
+
+.home-p {
+  font-size: 1.2rem;
+  /* margin: 0 61px; */
+  /* border: solid 3px red; */
+  height: 17px;
+  gap: 0.5rem;
+  /* width: auto; */
+}
+
+.home-img1 {
+  height: 250px;
+  margin-left: 70px;
+  /* border: solid 3px red; */
+  border-radius: 0.3rem;
+}
+
+.p-label {
+  padding: 0 70px;
+  font-size: 0.9rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* border: solid 3px red; */
+  width: 200px;
+  font-family: "Quattrocento", serif;
+}
+
+.home-link {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* a:hover { */
+/* background-color: aqua;
+} */
+.homecard-container1 {
+  grid-column: span 2;
+}
+
+.homecard-container2 {
+}
+
+.homecard-container3 {
+}
+
+.homecard-container4 {
+}
+
+.homecard-wrapper {
+}

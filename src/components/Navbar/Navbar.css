@@ -1,12 +1,12 @@
 .nav {
-  display: flex;
+  /* display: flex; */
   /* height: 100px; */
-  align-items: center;
-  justify-content: center;
+  /* align-items: right;
+  justify-content: center; */
   /* border: solid red 2px; */
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif;
   font-size: 1rem;
-  top: 0;
+  top: 0; */
 }
 
 @media (max-width: 960px) {
@@ -29,14 +29,14 @@
 
 .nav-logo {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 2.3rem;
-  /* border: solid red 2px; */
-  padding: 0 50px;
-  margin-right: 223px;
+  padding: 50px 50px;
+  /* margin-right: 223px; */
   cursor: pointer;
+  font-family: "Quattrocento", serif;
 }
 
 .nav-menu {

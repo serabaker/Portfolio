@@ -2,10 +2,10 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = (props) => {
-  const navbarLinks = ["Home", "About", "Portfolio"];
+  // const navbarLinks = ["Home", "About", "Portfolio"];
   return (
     <nav className="nav">
-      <div className="nav-container">
+      {/* <div className="nav-container">
         <div className="nav-menu">
           <ul className="nav-items">
             <li className="nav-links">
@@ -30,14 +30,14 @@ const Navbar = (props) => {
               </a>
             </li>
           </ul>
-        </div>
-        <div className="nav-logo">Britny ~ Lain</div>
-        <button className="sign-in-button">
+        </div> */}
+      <div className="nav-logo">~Britny Lain~</div>
+      {/* <button className="sign-in-button">
           <a className="nav-button-link" href="/signin">
             Contact
           </a>
         </button>
-      </div>
+      </div> */}
     </nav>
   );
 };
