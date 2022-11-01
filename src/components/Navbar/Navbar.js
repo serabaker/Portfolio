@@ -2,15 +2,14 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = (props) => {
-  const navbarLinks = ["Tech", "Parenthood", "Recipes", "About"];
+  const navbarLinks = ["Home", "About", "Portfolio"];
   return (
     <nav className="nav">
       <div className="nav-container">
-        <div className="nav-logo">BJL</div>
         <div className="nav-menu">
           <ul className="nav-items">
             <li className="nav-links">
-              <a className="nav-links" href="/tech">
+              <a className="nav-links" href="/home">
                 {navbarLinks[0]}
               </a>
             </li>
@@ -18,7 +17,7 @@ const Navbar = (props) => {
 
           <ul className="nav-items">
             <li className="nav-links">
-              <a className="nav-links" href="/motherhood">
+              <a className="nav-links" href="/about">
                 {navbarLinks[1]}
               </a>
             </li>
@@ -26,23 +25,16 @@ const Navbar = (props) => {
 
           <ul className="nav-items">
             <li className="nav-links">
-              <a className="nav-links" href="/recipes">
+              <a className="nav-links" href="/portfolio">
                 {navbarLinks[2]}
               </a>
             </li>
           </ul>
-
-          <ul className="nav-items">
-            <li className="nav-links">
-              <a className="nav-links" href="/about">
-                {navbarLinks[3]}
-              </a>
-            </li>
-          </ul>
         </div>
+        <div className="nav-logo">Britny ~ Lain</div>
         <button className="sign-in-button">
           <a className="nav-button-link" href="/signin">
-            Sign In
+            Contact
           </a>
         </button>
       </div>
