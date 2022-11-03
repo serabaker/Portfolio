@@ -9,11 +9,13 @@ function App() {
   return (
     <>
       <Navbar name="I just passed a prop" />
+      <Home />
+      <About />
       <Router>
         <Routes>
           <Route exact path="/home" element={<Home />} />
-          {/* <Route exact path="/about" element={<About />} />
-          <Route exact path="/portfolio" element={<Portfolio />} */}
+          <Route exact path="/about" element={<About />} />
+          {/*<Route exact path="/portfolio" element={<Portfolio />} */}
         </Routes>
       </Router>
     </>
